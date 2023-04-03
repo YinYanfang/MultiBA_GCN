@@ -12,10 +12,10 @@ Under Protocol 1 (mean per-joint position error) and Protocol 2 (mean per-joint 
 | SemGCN | Ground truth[2] | 30 | 0.27M | 42.14 mm | 33.53 mm |
 | SemGCN (w/ Non-local)[2] | Ground truth | 30 | 0.43M | 40.78 |31.46 |
 | MultiBA_GCN (no FC) | Ground truth | 50 | 0.40M | 40.5165 | 32.0645 |
-| **MultiBA_GCN (FC,sum fusion)** | Ground truth | 50 | 0.47M | **38.4044 mm** | **30.4082 mm** |
+| **MultiBA_GCN (FC,sum fusion)** | Ground truth | 50 | 0.47M | **38.4044** | **30.4082** |
 | Martinez et al. [1] | SH (fine-tuned) | 200  | 4.29M | 63.48 mm | 48.15 mm |
 | SemGCN (w/ Non-local)[2] | SH (fine-tuned) | 100 | 0.43M | 61.24 mm | 47.71 mm |
-| **MultiBA_GCN (FC,conv fusion)** | CPN | 50 | 0.93M | ** 55.1999 mm** | **43.9530 mm** |
+| **MultiBA_GCN (FC,conv fusion)** | CPN | 50 | 0.93M | **55.1999** | **43.9530** |
 
 Results using two different 2D detections (Ground truth and CPN on Human3.6M) are reported.
 
@@ -46,7 +46,9 @@ If you want verify the ablation study, modify the in import statement as the pro
 
 ### References
 [1] Martinez et al. [A simple yet effective baseline for 3d human pose estimation](https://arxiv.org/pdf/1705.03098.pdf). ICCV 2017.
+
 [2] Zhao et al. [Semantic Graph Convolutional Networks for 3D Human Pose Regression](https://arxiv.org/pdf/1904.03345.pdf). CVPR 2019.
+
 [3] Pavllo et al. [3D human pose estimation in video with temporal convolutions and semi-supervised training](https://arxiv.org/pdf/1811.11742.pdf). CVPR 2019.
 
 ## Acknowledgement
